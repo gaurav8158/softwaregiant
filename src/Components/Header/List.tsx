@@ -134,7 +134,7 @@ const List = () => {
         {/* Mega Menu: Who We Are */}
         <NavigationMenuItem>
           <NavigationMenuTrigger>Who We Are</NavigationMenuTrigger>
-          <NavigationMenuContent  className="bg-white text-black">
+          <NavigationMenuContent className="bg-white text-black">
             <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px]">
               <ListItem href="/about" title="About Us">
                 Learn more about our mission, vision, and team.
@@ -152,7 +152,7 @@ const List = () => {
         {/* Mega Menu: Careers */}
         <NavigationMenuItem>
           <NavigationMenuTrigger>Careers</NavigationMenuTrigger>
-          <NavigationMenuContent  className="bg-white text-black">
+          <NavigationMenuContent className="bg-white text-black">
             <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px]">
               <ListItem
                 href="/careers/software-engineer"
