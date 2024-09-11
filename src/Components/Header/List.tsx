@@ -61,7 +61,7 @@ const List = () => {
         <NavigationMenuItem>
           <NavigationMenuTrigger>What We Do</NavigationMenuTrigger>
           <NavigationMenuContent>
-            <ul className="grid gap-3 p-6 md:w-[400px] lg:w-[600px] lg:grid-cols-[1fr_1fr]">
+            <ul className="grid gap-3 bg-white text-black p-6 md:w-[400px] lg:w-[600px] lg:grid-cols-[1fr_1fr]">
               <li className="row-span-3">
                 <NavigationMenuLink asChild>
                   <a
@@ -107,43 +107,34 @@ const List = () => {
         </NavigationMenuItem>
 
         {/* Mega Menu: What We Think */}
-        <NavigationMenuItem> 
-  <NavigationMenuTrigger>What We Think</NavigationMenuTrigger>
-  <NavigationMenuContent>
-    <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px]">
-      <ListItem
-        title="Innovation and Trends"
-        href="/innovation"
-      >
-        Discover the latest trends and innovations in technology that are shaping the future.
-      </ListItem>
-      <ListItem
-        title="Industry Insights"
-        href="/insights"
-      >
-        Gain valuable insights into industry developments and how they impact your business.
-      </ListItem>
-      <ListItem
-        title="Our Vision"
-        href="/vision"
-      >
-        Learn about our vision for the future and how we plan to drive progress and innovation.
-      </ListItem>
-      <ListItem
-        title="Thought Leadership"
-        href="/thought-leadership"
-      >
-        Explore our thought leadership articles and thought-provoking opinions on various tech topics.
-      </ListItem>
-    </ul>
-  </NavigationMenuContent>
-</NavigationMenuItem>
-
+        <NavigationMenuItem>
+          <NavigationMenuTrigger>What We Think</NavigationMenuTrigger>
+          <NavigationMenuContent className="bg-white text-black">
+            <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px]">
+              <ListItem title="Innovation and Trends" href="/innovation">
+                Discover the latest trends and innovations in technology that
+                are shaping the future.
+              </ListItem>
+              <ListItem title="Industry Insights" href="/insights">
+                Gain valuable insights into industry developments and how they
+                impact your business.
+              </ListItem>
+              <ListItem title="Our Vision" href="/vision">
+                Learn about our vision for the future and how we plan to drive
+                progress and innovation.
+              </ListItem>
+              <ListItem title="Thought Leadership" href="/thought-leadership">
+                Explore our thought leadership articles and thought-provoking
+                opinions on various tech topics.
+              </ListItem>
+            </ul>
+          </NavigationMenuContent>
+        </NavigationMenuItem>
 
         {/* Mega Menu: Who We Are */}
         <NavigationMenuItem>
           <NavigationMenuTrigger>Who We Are</NavigationMenuTrigger>
-          <NavigationMenuContent>
+          <NavigationMenuContent  className="bg-white text-black">
             <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px]">
               <ListItem href="/about" title="About Us">
                 Learn more about our mission, vision, and team.
@@ -161,7 +152,7 @@ const List = () => {
         {/* Mega Menu: Careers */}
         <NavigationMenuItem>
           <NavigationMenuTrigger>Careers</NavigationMenuTrigger>
-          <NavigationMenuContent>
+          <NavigationMenuContent  className="bg-white text-black">
             <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px]">
               <ListItem
                 href="/careers/software-engineer"
