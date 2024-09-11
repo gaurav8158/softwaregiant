@@ -1,7 +1,6 @@
 "use client"; // Ensure this is at the top of the file
 
 import * as React from "react";
-import Link from "next/link";
 import { cn } from "@/lib/utils"; // Ensure this is defined correctly
 import {
   NavigationMenu,

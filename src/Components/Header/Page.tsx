@@ -1,4 +1,3 @@
-import { useState } from "react";
 import Link from "next/link";
 import List from "./List";
 import Image from "next/image";

@@ -14,7 +14,6 @@ import {
 } from "../ui/drawer";
 import { Button } from "../ui/button";
 import Mainlogo from "../../../Public/Homepage/mainlogo.png";
-import { NavigationMenuLink } from "../ui/navigation-menu";
 import { Cross1Icon, HamburgerMenuIcon } from "@radix-ui/react-icons";
 import Image from "next/image";
 
