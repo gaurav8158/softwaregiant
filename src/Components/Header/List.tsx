@@ -46,7 +46,7 @@ const List = () => {
         <NavigationMenuItem>
           <NavigationMenuTrigger>What We Do</NavigationMenuTrigger>
           <NavigationMenuContent>
-            <ul className="grid gap-3 bg-white text-black p-6 md:w-[400px] lg:w-[600px] lg:grid-cols-[1fr_1fr]">
+            <ul className="grid gap-3 bg-white text-[#191970] p-6 md:w-[400px] lg:w-[700px] lg:grid-cols-[1fr_1fr]">
               <li className="row-span-3">
                 <NavigationMenuLink asChild>
                   <a
@@ -94,8 +94,8 @@ const List = () => {
         {/* Mega Menu: What We Think */}
         <NavigationMenuItem>
           <NavigationMenuTrigger>What We Think</NavigationMenuTrigger>
-          <NavigationMenuContent className="bg-white text-black">
-            <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px]">
+          <NavigationMenuContent className="bg-white text-[#191970]">
+            <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[700px]">
               <ListItem title="Innovation and Trends" href="/innovation">
                 Discover the latest trends and innovations in technology that
                 are shaping the future.
@@ -119,8 +119,8 @@ const List = () => {
         {/* Mega Menu: Who We Are */}
         <NavigationMenuItem>
           <NavigationMenuTrigger>Who We Are</NavigationMenuTrigger>
-          <NavigationMenuContent className="bg-white text-black">
-            <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px]">
+          <NavigationMenuContent className="bg-white text-[#191970]">
+            <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[700px]">
               <ListItem href="/about" title="About Us">
                 Learn more about our mission, vision, and team.
               </ListItem>
@@ -137,8 +137,8 @@ const List = () => {
         {/* Mega Menu: Careers */}
         <NavigationMenuItem>
           <NavigationMenuTrigger>Careers</NavigationMenuTrigger>
-          <NavigationMenuContent className="bg-white text-black">
-            <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px]">
+          <NavigationMenuContent className="bg-white text-[#191970]">
+            <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[700px]">
               <ListItem
                 href="/careers/software-engineer"
                 title="Software Engineer"
