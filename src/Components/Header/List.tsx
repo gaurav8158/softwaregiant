@@ -9,7 +9,6 @@ import {
   NavigationMenuLink,
   NavigationMenuList,
   NavigationMenuTrigger,
-  navigationMenuTriggerStyle,
 } from "../ui/navigation-menu"; // Ensure these imports are correct
 // ListItem Component
 const ListItem = React.forwardRef<
